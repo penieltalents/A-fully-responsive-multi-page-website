@@ -590,10 +590,20 @@ hr{
     align-self: flex-end;
 }
 
-.contacts{
+.social_media_icons{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 20px;
     position: fixed;
-    left: 10px;
+    top: 35%;
 }
+
+.social_media_icons >*{
+    cursor: pointer;
+}
+
+
 
 @media all and (max-width: 600px){
     
@@ -925,6 +935,27 @@ hr{
 
     .logo{
         width: 100px;
+    }
+
+    .social_media_icons{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 20px;
+        right: 0;
+        position: fixed;
+        height: 90px;
+        top: 45%;
+        margin-right: 26px;
+    }
+    
+    .social_media_icons >*{
+        cursor: pointer;
+        flex-basis: 10px;
+    }
+
+    .social_media_icons img{
+        width: 18px;
     }
 }
 
