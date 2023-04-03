@@ -597,6 +597,7 @@ hr{
     margin-left: 20px;
     position: fixed;
     top: 35%;
+    z-index: -1;
 }
 
 .social_media_icons >*{
